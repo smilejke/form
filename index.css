@@ -1,0 +1,81 @@
+@import "~antd/dist/antd.css";
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Play&display=swap");
+
+.App {
+  width: 60vw;
+  margin: 50px auto;
+}
+form {
+  border-bottom: 2px solid black;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.row1 {
+  grid-row: 1/2;
+}
+
+.row2 {
+  grid-row: 2/3;
+}
+.row1,
+.row2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="text"],
+select {
+  font-family: "Play", sans-serif;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.submit {
+  margin: 20px auto;
+}
+.form-container table {
+  margin-top: 30px;
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+}
+.checkbox-descr {
+  font-size: 1rem;
+  font-family: "Play", sans-serif;
+}
+
+.form-container table th {
+  padding-bottom: 10px;
+}
+
+.form-container td {
+  border: 1px solid #ccc;
+  padding: 0 7px;
+}
+
+.close,
+.edit {
+  cursor: pointer;
+}
+
+.small-th {
+  width: 6%;
+}
+.name-th {
+  width: 30%;
+}
+.pos-th {
+  width: 52%;
+}
+
+select {
+  width: 100%;
+  height: 5vh;
+  border-radius: 3px;
+}
